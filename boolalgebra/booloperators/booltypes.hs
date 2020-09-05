@@ -28,3 +28,6 @@ _intfrombin_rec (bh:bt) x y
     | bh == True  = _intfrombin_rec bt (x+y) (y*2)
     | bh == False = _intfrombin_rec bt x (y*2)
 intfrombin bools = (_intfrombin_rec (reverse bools) 0 1)
+
+strfrombin :: [Bool] -> String
+strfrombin bools = map (\b -> if b then '1' else '0') bools
