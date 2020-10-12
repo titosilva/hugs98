@@ -17,7 +17,7 @@ dobro_soma lista = 2 * (soma_lista lista 0)
 dobro_soma2 [] = 0
 dobro_soma2 lista = 2 * (soma_lista2 lista)
 
--- soma dos elementos lista 
+-- soma dos elementos lista 2
 soma_lista2 [] = 0
 soma_lista2 (x:xs) = x + soma_lista2 xs
 
