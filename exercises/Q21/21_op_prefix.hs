@@ -10,7 +10,6 @@ prefix (x:xs)
   | x == '*' = (read (head(words xs)) :: Int) * (read (last(words xs)) :: Int)
   | otherwise = -1
 
-
 {- 
   Implemente um avaliador de expressões PRÉ-FIXADAS que receba uma string contendo 
   a expressão na forma pré-fixada e retorne o seu valor. 
