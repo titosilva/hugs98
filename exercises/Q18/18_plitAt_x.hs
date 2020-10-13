@@ -23,9 +23,7 @@ separador str = retira_barra (splitAt (posicao '/' str) str)
 
   posicao: pega o indice da "/"
   splitAt: divide string em uma tupla, onde estiver a barra
+  retira_barra: apenas retira primeiro item, a barra, da segunda lista da tupla retornada pelo splitAt
 
   Se tiver mais de uma barra, vai ignorar a segunda
-
-  retira_barra: apenas retira primeiro item, a barra, da segunda lista da tupla retornada pelo splitAt
-  
 -}
